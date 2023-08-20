@@ -1,22 +1,34 @@
-# cypress-intermediario
-Tests in gitlab using cypres. 
+# Testes automatizados com Cypress - Intermediário
 
-## pre-requirements
+👋 Seja bem-vinda(o)!
 
-It is required to have node.js and npm installed to run this project.
+É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
 
-> I used versions `9.6.7` of npm and `v18.17.0`of node.js.
+## O que você vai aprender
 
-It is also necessary install docker 
+Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
 
-## Installation
+- Como configurar o ambiente local de desenvolvimento
+- Como instalar e configurar o Cypress
+- Como criar testes automatizados de interface gráfica de usuário
+- Como criar testes automatizados de API (com _feedback_ visual no navegador)
+- Como testar APIs que necessitam um _token_ de acesso
+- Como criar testes otimizados e direto-ao-ponto
+- Como salvar a sessão do usuário no navegador para posterior restauração
+- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
+- Como fazer a limpeza e criação da massa de dados antes do teste começar
+- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
+- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
+- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
+- Como gerar dados aleatórios para uso nos testes automatizados
+- Como habilitar funcionalidades experimentais do Cypress
+- Como executar comandos à nível de sistema operacional
+- E como testar a leitura de arquivos
 
-Run `npm install` to install the dev dependencies  
+## Vamos começar?
 
-## Tests
+Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
 
-Create the container: `docker run wlsf82/gitlab-ce`. Run docker. 
+___
 
-Run `npx cypress open` to open cypress and `npx cypress run` to run tests in cypress.
-You can also run all tests `npx cypress run --spec "path.cy.js"
-
+Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
